@@ -1,0 +1,10 @@
+## Q. Write a SQL query to find the txnmonth which has the maximum txnamount.
+
+CREATE TABLE eshop(txnmonth VARCHAR(50),clothing VARCHAR(50),electronics VARCHAR(50),sports VARCHAR(50));
+INSERT INTO eshop VALUES('Jan',2000,1500,3000);
+INSERT INTO eshop VALUES('Feb',1000,2500,4000);
+INSERT INTO eshop VALUES('Mar',2000,1400,1000);
+INSERT INTO eshop VALUES('Apr',3000,1500,1000);
+
+## OP:
+## Feb
